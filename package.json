@@ -1,0 +1,24 @@
+{
+  "name": "8BitToken",
+  "version": "1.0.0",
+  "description": "8 Circuit Studios Token",
+  "scripts": {
+    "compile": "node_modules/truffle/build/cli.bundled.js compile",
+    "compile-live": "node_modules/truffle/build/cli.bundled.js compile --network live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8CircuitStudios/8BitToken.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8CircuitStudios/8BitToken/issues"
+  },
+  "homepage": "https://github.com/8CircuitStudios/8BitToken",
+  "dependencies": {
+    "zeppelin-solidity": "^1.1.0"
+  },
+  "devDependencies": {
+    "truffle": "^3.2.93"
+  }
+}
